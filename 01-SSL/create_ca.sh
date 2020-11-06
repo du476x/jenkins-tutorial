@@ -1,7 +1,6 @@
 #!/bin/bash
 source ./properties/ca_subject.properties
 read -s -p "Key Password: " PASSWORD
-echo "password is $PASSWORD "
 #CA key generation
 openssl genrsa -des3 -out $CA_NAME.key -passout pass:$PASSWORD 2048
 #CA Root certificate
