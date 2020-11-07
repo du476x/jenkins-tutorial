@@ -1,0 +1,10 @@
+[Unit]
+Description=Jenkins service
+
+[Service]
+User=du476x
+# Adjust to your java path ports and certs
+ExecStart=java -jar /opt/jenkins/current/jenkins.war --httpsPrivateKey=/opt/jenkins/ssl/jenkins.workstation.mx.key --httpsCertificate=/opt/jenkins/ssl/jenkins.workstation.mx.crt --httpPort=-1 --httpsPort=8443
+
+[Install]
+WantedBy=multi-user.target
