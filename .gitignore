@@ -1,3 +1,5 @@
 01-SSL/ca/**
 01-SSL/jenkins/**
 02-Jenkins/docker/ssl/**
+02-Jenkins/war/binaries/**
+02-Jenkins/war/ssl/**
