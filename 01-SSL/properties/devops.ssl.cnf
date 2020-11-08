@@ -4,4 +4,4 @@ keyUsage = digitalSignature, nonRepudiation, keyEncipherment, dataEncipherment
 subjectAltName = @alt_names
 
 [alt_names]
-DNS.1=jenkins.workstation.mx
+DNS.1=devops.workstation.mx
